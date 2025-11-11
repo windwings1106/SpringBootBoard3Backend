@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb37464e-8f6b-4035-a03e-adc00f925a1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/controller/BlogApiControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/abc/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/abc/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/abc/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/abc/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/insert-members.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/MemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/TestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/TestControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
@@ -79,6 +94,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.BlogApiControllerTest.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.JUnitCycleTest.executor": "Run",
     "Gradle.JUnitTest.executor": "Run",
@@ -103,11 +119,52 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\516-08\projects\springboot-developer\src\main\resources\abc" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="me.windwings.springbootdeveloper.controller" />
       <recent name="me.windwings.springbootdeveloper" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MemberRepositoryTest">
+  <component name="RunManager" selected="Gradle.BlogApiControllerTest">
+    <configuration name="SpringBootDeveloperApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.windwings.springbootdeveloper.SpringBootDeveloperApplication" />
+      <module name="springboot-developer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.windwings.springbootdeveloper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApiControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.windwings.springbootdeveloper.controller.BlogApiControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="MemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,30 +179,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;me.windwings.springbootdeveloper.MemberRepositoryTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MemberRepositoryTest.saveMember" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;me.windwings.springbootdeveloper.MemberRepositoryTest.saveMember&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,37 +237,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;me.windwings.springbootdeveloper.TestControllerTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BlogApiControllerTest" />
+        <item itemvalue="Application.SpringBootDeveloperApplication" />
         <item itemvalue="Gradle.MemberRepositoryTest" />
         <item itemvalue="Gradle.MemberRepositoryTest.saveMembers" />
         <item itemvalue="Gradle.MemberRepositoryTest.update" />
-        <item itemvalue="Gradle.MemberRepositoryTest.saveMember" />
-        <item itemvalue="Gradle.TestControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +262,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/MemberRepositoryTest.java</url>
-          <line>59</line>
+          <line>61</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

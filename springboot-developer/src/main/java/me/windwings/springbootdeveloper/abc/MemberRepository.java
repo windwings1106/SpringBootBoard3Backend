@@ -1,4 +1,4 @@
-package me.windwings.springbootdeveloper;
+package me.windwings.springbootdeveloper.abc;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -1,6 +1,8 @@
 package me.windwings.springbootdeveloper;
 
 
+import me.windwings.springbootdeveloper.abc.Member;
+import me.windwings.springbootdeveloper.abc.MemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +23,7 @@ class MemberRepositoryTest {
         memberRepository.deleteAll();
     }
 
-    @Sql("/insert-members.sql")
+    @Sql("/abc/insert-members.sql")
     @Test
     void getAllMembers() {
         List<Member> members = memberRepository.findAll();
@@ -29,7 +31,7 @@ class MemberRepositoryTest {
         assertThat(members.size()).isEqualTo(3);
     }
 
-    @Sql("/insert-members.sql")
+    @Sql("/abc/insert-members.sql")
     @Test
     void getMembersById() {
         Member member = memberRepository.findById(2L).get();
@@ -37,7 +39,7 @@ class MemberRepositoryTest {
         assertThat(member.getName()).isEqualTo("B");
     }
 
-    @Sql("/insert-members.sql")
+    @Sql("/abc/insert-members.sql")
     @Test
     void getMembersByName() {
         Member member = memberRepository.findByName("C").get();
@@ -60,21 +62,21 @@ class MemberRepositoryTest {
         assertThat(memberRepository.findAll().size()).isEqualTo(2);
     }
 
-    @Sql("/insert-members.sql")
+    @Sql("/abc/insert-members.sql")
     @Test
     void deleteMemberById() {
         memberRepository.deleteById(2L);
         assertThat(memberRepository.findById(2L).isEmpty()).isTrue();
     }
 
-    @Sql("/insert-members.sql")
+    @Sql("/abc/insert-members.sql")
     @Test
     void deleteAll() {
         memberRepository.deleteAll();
         assertThat(memberRepository.findAll().size()).isZero();
     }
 
-    @Sql("/insert-members.sql")
+    @Sql("/abc/insert-members.sql")
     @Test
     void update() {
         Member member = memberRepository.findById(2L).get();

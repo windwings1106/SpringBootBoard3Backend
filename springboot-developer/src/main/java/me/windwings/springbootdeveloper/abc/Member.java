@@ -1,4 +1,4 @@
-package me.windwings.springbootdeveloper;
+package me.windwings.springbootdeveloper.abc;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
