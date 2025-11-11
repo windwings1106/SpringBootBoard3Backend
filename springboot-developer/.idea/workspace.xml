@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb37464e-8f6b-4035-a03e-adc00f925a1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/insert-members.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/MemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/domain/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/MemberRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +49,8 @@
       <list>
         <option value="Interface" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,6 +74,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_ASCENDING" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -85,6 +83,8 @@
     "Gradle.JUnitCycleTest.executor": "Run",
     "Gradle.JUnitTest.executor": "Run",
     "Gradle.MemberRepositoryTest.executor": "Run",
+    "Gradle.MemberRepositoryTest.saveMember.executor": "Debug",
+    "Gradle.MemberRepositoryTest.saveMembers.executor": "Run",
     "Gradle.MemberRepositoryTest.update.executor": "Debug",
     "Gradle.TestControllerTest.executor": "Run",
     "Gradle.springboot-developer [:me.windwings.springbootdeveloper.SpringBootDeveloperApplication.main()].executor": "Run",
@@ -107,55 +107,7 @@
       <recent name="me.windwings.springbootdeveloper" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MemberRepositoryTest.update">
-    <configuration name="JUnitCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;JUnitCycleTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="JUnitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;JUnitTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.MemberRepositoryTest">
     <configuration name="MemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,6 +122,54 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;me.windwings.springbootdeveloper.MemberRepositoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberRepositoryTest.saveMember" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.windwings.springbootdeveloper.MemberRepositoryTest.saveMember&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberRepositoryTest.saveMembers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.windwings.springbootdeveloper.MemberRepositoryTest.saveMembers&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -230,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MemberRepositoryTest.update" />
         <item itemvalue="Gradle.MemberRepositoryTest" />
+        <item itemvalue="Gradle.MemberRepositoryTest.saveMembers" />
+        <item itemvalue="Gradle.MemberRepositoryTest.update" />
+        <item itemvalue="Gradle.MemberRepositoryTest.saveMember" />
         <item itemvalue="Gradle.TestControllerTest" />
-        <item itemvalue="Gradle.JUnitCycleTest" />
-        <item itemvalue="Gradle.JUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -247,5 +247,16 @@
       <updated>1762823911871</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/MemberRepositoryTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
