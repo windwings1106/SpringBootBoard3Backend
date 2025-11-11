@@ -5,24 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb37464e-8f6b-4035-a03e-adc00f925a1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/controller/BlogApiControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/newArticle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/abc/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/abc/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/abc/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/abc/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/windwings/springbootdeveloper/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/insert-members.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/MemberRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/TestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/windwings/springbootdeveloper/TestControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +117,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\516-08\projects\springboot-developer\src\main\resources\static\js" />
       <recent name="C:\Users\516-08\projects\springboot-developer\src\main\resources\abc" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
